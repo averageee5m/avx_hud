@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/hud.css">
+    <!-- <link rel="stylesheet" href="./css/carhud.css"> -->
+    <link rel="stylesheet" href="./css/notification.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css.">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css">
+</head>
+<body>
+    
+    <div class="interfaz">
+
+        <div class="compass">
+            <span class="text"></span>
+        </div>
+
+        <div class="notifications"></div>
+
+
+        <div class="interfaz-notifications"></div>
+
+        <main class="interfaz-hud">
+
+            <div class="hud-container micro">
+                <div class="icon-container"><i class="fa-duotone fa-microphone-lines"></i></div>
+                <div class="bar-container">
+                    <div class="progress-container" id="micro"></div>
+                </div>
+
+                <div class="radio-channel">40.0</div>
+            </div>
+
+            <div class="hud-container health">
+                <div class="icon-container"><i class="fa-duotone fa-heart-pulse"></i></div>
+                <div class="bar-container">
+                    <div class="progress-container" id="health"></div>
+                </div>
+            </div>
+            
+            <div class="hud-container shield">
+                <div class="icon-container"><i class="fa-duotone fa-shield-halved"></i></div>
+                <div class="bar-container">
+                    <div class="progress-container" id="shield"></div>
+                </div>
+            </div>
+
+            <div class="hud-container hunger">
+                <div class="icon-container"><i class="fa-duotone fa-drumstick-bite"></i></div>
+                <div class="bar-container">
+                    <div class="progress-container" id="hunger"></div>
+                </div>
+            </div>
+
+            <div class="hud-container thirst">
+                <div class="icon-container"><i class="fa-duotone fa-droplet"></i></div>
+                <div class="bar-container">
+                    <div class="progress-container" id="thirst"></div>
+                </div>
+            </div>
+
+            <!-- <div class="hud-container stamina">
+                <div class="icon-container"><i class="fa-duotone fa-person-running"></i></div>
+                <div class="bar-container">
+                    <div class="progress-container" id="stamina"></div>
+                </div>
+            </div> -->
+
+            <div class="hud-container stress">
+                <div class="icon-container"><i class="fa-duotone fa-brain"></i></div>
+                <div class="bar-container">
+                    <div class="progress-container" id="stress"></div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- <main class="interfaz-carhud">
+            <div class="container-carhud">
+
+                <div class="speed-part">
+                    <div class="container-speed">
+                        <div class="speed-text">000</div>
+                    </div>
+                </div>
+                
+                <div class="rpm-part">
+
+                    <div class="functions-rpm-part">
+                        <i class="fa-duotone fa-engine"></i>
+                        <img src="./assets/belt.png">
+                        <i class="fa-duotone fa-gas-pump"></i>
+                    </div>
+
+                    <div class="fuelprog">
+                        <div class="fuelprogin"></div>
+                    </div>
+
+                    <div class="statusprog">
+                        <div class="statusprogin"></div>
+                    </div>
+
+                    <div class="bar">
+                        <div class="rpm-bar">
+                            <div class="rpm-progress-left"></div>
+                        </div>
+                        <div class="rpm-bar">
+                            <div class="rpm-progress-right"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+        </main> -->
+        <!-- <img src="https://cdn.discordapp.com/attachments/1077276303557931113/1210337653866893333/backside_base_lgoo.png?ex=65ea31c7&is=65d7bcc7&hm=f34094a6a9676ccf4ad8a769bce7899e8eb862e165fc1633c77172e2f0a351da&" class="logo" alt="logo"> -->
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./js/functions.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/classes/hud.js"></script>
+    <script src="./js/classes/street.js"></script> 
+    <script src="./js/classes/notifications.js"></script>
+</body>
+</html>

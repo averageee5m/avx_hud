@@ -1,0 +1,64 @@
+@font-face {
+    font-family: normal;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: digital;
+    src: url(../fonts/digital-7.ttf);
+}
+
+@font-face {
+    font-family: light;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: dsdig;
+    src: url(../fonts/DS-DIGI.TTF);
+}
+
+@font-face {
+    font-family: bankgothic;
+    src: url(../fonts/bankgothic.ttf);
+}
+
+@font-face {
+    font-family: azonix;
+    src: url(../fonts/Azonix.otf);
+}
+
+*{
+    user-select: none;
+}
+
+:root{
+    --black-color: rgba(8, 8, 8, 0.756);
+    --white-color: rgba(231, 231, 231, 0.863);
+    --red-color: rgba(1, 115, 255, 0.934);
+    --active-voice: rgb(212, 64, 64);
+    --grey-color: rgba(201, 200, 200, 0.863);
+    --hotwhite-color: rgba(231, 231, 231, 0.863);
+    --hotgrey-color: rgba(201, 200, 200, 0.466);
+    --check-color: rgba(105, 235, 65, 0.589);
+    --info-color: rgb(104, 106, 235);
+    --bank-color: rgba(235, 194, 104, 0.651);
+    --admin-color: rgb(139, 104, 235);
+    --radio-color: rgb(66, 66, 66);
+    --car-color: rgb(235, 104, 137);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.interfaz{
+    position: absolute;
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+}
