@@ -18,11 +18,6 @@ client_scripts {
     'client/*.lua',
 }
 
-server_scripts {
-    '@oxmysql/lib/MySQL.lua',
-    'server/*.lua',
-}
-
 shared_script {
     '@ox_lib/init.lua',
 	'@qb-core/shared/locale.lua',
